@@ -1,0 +1,19 @@
+<form #form="ngForm">
+    <h2>Book homes, hotels and much more on MuBnB</h2>
+    <div class="form-group">
+        <input type="text" class="form-control mt-2" placeholder="Anywhere">
+    </div>
+    <div class="form-group">
+        <input class="form-control mt-3" [bsConfig]="bsConfig" placeholder="Check-In" type="text" bsDatepicker>
+        <input class="form-control mt-3" [bsConfig]="bsConfig" placeholder="Check-Out" type="text" bsDatepicker>
+    </div>
+    <div class="form-group mt-3">
+        <input class="form-control mt-3" placeholder="Adults" type="text">
+        <input class="form-control mt-3" placeholder="Children" type="text">
+    </div>
+    <div class="form-group text-center">
+        <button class="btn btn-danger  mt-3 btn-block mr-2" type="submit">Search</button>
+
+
+    </div>
+</form>

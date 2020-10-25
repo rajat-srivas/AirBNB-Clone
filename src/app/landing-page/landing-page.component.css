@@ -1,0 +1,58 @@
+    .landing-div {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(../../assets/landing-image.jpg);
+        min-height: 90vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .searchForm {
+        padding: 30px;
+        background-color: white;
+        margin-left: 10%;
+        margin-right: 60%;
+        /* margin-top: 3%; */
+    }
+    
+    .offer-div {
+        padding: 2px;
+        background-color: white;
+        margin-left: 15%;
+    }
+    
+    .navbar-brand {
+        font-family: 'Pacifico', cursive;
+        opacity: 1;
+    }
+    
+    .nav-back {
+        opacity: 0.8;
+    }
+    
+    .nav-link {
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 17px;
+        border-bottom: 3px solid transparent;
+    }
+    
+    .nav-link:hover {
+        border-bottom: 3px solid red;
+    }
+    
+    .nav-link:active {
+        border-bottom: 3px solid red;
+    }
+    
+    @media (max-width: 1000px) {
+        .searchForm {
+            margin-right: 30%;
+        }
+    }
+    
+    @media (max-width: 568px) {
+        .searchForm {
+            margin-right: 12%;
+        }
+    }

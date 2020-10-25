@@ -1,0 +1,14 @@
+a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+a:hover {
+    border-bottom: 3px solid grey;
+}
+
+a:active {
+    border-bottom: 3px soli grey;
+}

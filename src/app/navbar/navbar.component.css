@@ -1,11 +1,11 @@
-.landing-div {
+/* .landing-div {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(../assets/landing-image.jpg);
     min-height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+} */
 
 .searchForm {
     padding: 30px;

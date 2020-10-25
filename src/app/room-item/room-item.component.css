@@ -1,0 +1,8 @@
+h5 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}

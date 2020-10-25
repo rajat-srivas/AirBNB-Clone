@@ -1,0 +1,9 @@
+<nav class="navbar  nav-back navbar-expand-lg text-white navbar-dark bg-dark">
+    <a class="navbar-brand text-white" href="#">MuBnb</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="nav navbar-nav ml-auto navbar-right">
+            <li class="nav-item"><a class="nav-link font-weight-bold" [routerLink]="['/explore']" routerLinkActive="router-link-active">Explore</a></li>
+            <li class="nav-item"><a class="nav-link font-weight-bold" (click)="openSignUpModal()">Sign Up</a></li>
+        </ul>
+    </div>
+</nav>

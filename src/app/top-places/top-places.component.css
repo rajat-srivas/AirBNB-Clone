@@ -1,0 +1,34 @@
+h3 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+i {
+    color: green;
+}
+
+.hovereffect {
+    overflow: hidden;
+    position: relative;
+}
+
+.hovereffect:hover .room-image {
+    transform: scale(1.1, 1.1);
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    opacity: 0.7;
+    overflow: hidden;
+}
+
+.imageContainer {
+    overflow: hidden;
+}
+
+.animate {
+    transition: all 0.3 ease-in-out;
+}
+
+.review-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
